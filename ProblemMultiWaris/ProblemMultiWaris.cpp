@@ -31,3 +31,14 @@ public:
 		cout << "pelajar dibuat\n" << endl;
 	}
 };
+
+class adan : public pekerja, public pelajar {
+public:
+
+	adan(int pUmur) :
+		pekerja(pUmur),
+		pelajar(pUmur)
+	{
+		cout << "Adan dibuat\n" << endl;
+	}
+};
