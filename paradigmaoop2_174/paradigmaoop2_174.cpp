@@ -42,12 +42,12 @@ public:
 		cout << "pelajar dihapus\n" << endl;
 	}
 	string perkenalan() {
-		return "Hallo, nama saya" + nama + "dengan jenis kelamin" + jeniskelamin + "dari sekolah" + sekolah + "\n\n";
+		return "Hallo, nama saya " + nama + " dengan jenis kelamin " + jeniskelamin + " dari sekolah " + sekolah + "\n\n";
 	}
 };
 
 int main() {
-	pelajar andi("andi laksono", "laki-laki", "belajarcpp");
+	pelajar andi("andi laksono", "laki-laki", "belajar cpp");
 	cout << andi.perkenalan();
 	return 0;
 }
