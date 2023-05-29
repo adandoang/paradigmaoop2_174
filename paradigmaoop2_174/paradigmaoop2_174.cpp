@@ -23,6 +23,9 @@ public:
 		jeniskelamin(pJeniskelamin) {
 		cout << "manusia dibuat\n" << endl;
 	}
+	~manusia() {
+		cout << "manusia dihapus\n" << endl;
+	}
 };
 
 class pelajar : private manusia, public orang {
