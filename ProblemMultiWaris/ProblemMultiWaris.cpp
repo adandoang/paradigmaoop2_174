@@ -42,3 +42,8 @@ public:
 		cout << "Adan dibuat\n" << endl;
 	}
 };
+
+int main() {
+	adan a(19);
+	return 0;
+}
